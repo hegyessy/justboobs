@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    font-family: "Archer A";
+    font-family: "Archer A", "Archer B";
   }
 }
