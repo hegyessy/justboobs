@@ -11,7 +11,6 @@ export const handler: Handlers = {
     });
 
     ctx.state.boob = boob;
-    console.log(ctx.state.boob);
     const resp = await ctx.render();
     return resp;
   },
