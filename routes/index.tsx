@@ -46,7 +46,7 @@ export default function Home(props: PageProps) {
       {boobs
         ? boobs.map((boob: BoobAttrs) => {
           return (
-            <div class="p-4 border bg-gray-50 rounded hover:border-pink-500 hover:shadow-lg hover:shadow-pink-200">
+            <div class="p-4 pb-2 border bg-gray-50 rounded hover:border-pink-500 hover:shadow-lg hover:shadow-pink-200">
               <a
                 href={props.url.href + "80085/" + boob.slug}
                 class="hover:text-red-500"
@@ -58,7 +58,7 @@ export default function Home(props: PageProps) {
                     alt={boob.title}
                   />
                   <figcaption class="capitalize text-center text-gray-400 pt-2 cursor-pointer">
-                    {boob.title}
+                    <h3>{boob.title}</h3>
                   </figcaption>
                 </figure>
               </a>

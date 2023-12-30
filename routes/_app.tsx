@@ -20,10 +20,10 @@ export default function App({ Component }: PageProps) {
         <DonationHeader />
         <div class="p-4 mx-auto">
           <header class="text-center">
-            <h1 class="text-3xl font-bold">
+            <h1 class="text-[3.8em]">
               <a href="/">80085</a>
             </h1>
-            <p class="text-sm">
+            <p>
               A silly website sketching boobs to raise money for breast cancer
               research.
             </p>

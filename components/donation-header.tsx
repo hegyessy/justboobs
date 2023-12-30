@@ -11,7 +11,7 @@ const data = parseAll(datafile) as CharityAttrs[];
 export default function DonationHeader() {
   return (
     <details class="donation-header w-screen py-2 text-center bg-pink-600 text-white">
-      <summary class="text-sm font-bold">
+      <summary class="">
         Donate today to help fight breast cancer
       </summary>
       <ul class="pt-4">

@@ -24,15 +24,13 @@ export default function Greet(props: PageProps) {
       <a href="/" title="Back to gallery" class="text-pink-500 mb-6">
         Back to gallery
       </a>
-      <header>
-        <h1 class="font-bold capitalize">{boob.title}</h1>
-        <p>{boob.factoid}</p>
-      </header>
+      <h2 class="text-2xl">{boob.title}</h2>
       <img
         class="lg:w-[50%] lg:h-[50%] m-6"
         src={`${props.url.origin}/${boob.source}`}
         alt={boob.title}
       />
+      <p>{boob.factoid}</p>
     </div>
   );
 }

@@ -4,6 +4,14 @@
 
 @layer base {
   body {
-    font-family: "Archer A", "Archer B";
+    font-family: "Verlag A", "Verlag B";
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  h1, h2, h3 {
+    font-family: "Landmark Dimensional A", "Landmark Dimensional B";
+    font-style: normal;
+    font-weight: 400;
   }
 }
